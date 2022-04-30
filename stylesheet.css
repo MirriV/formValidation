@@ -1,16 +1,19 @@
+*{ box-sizing:border-box;}
 body{
     display: flex;
     flex-direction: column;
     font-size: 14px;
+    width: 30%;
+    
 }
 input[type=text], select{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 input[type=number],select{
     width: 100%;
